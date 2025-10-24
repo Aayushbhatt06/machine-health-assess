@@ -82,7 +82,7 @@ const Dashboard = () => {
       console.log("Sending payload:", payload);
 
       const response = await axios.post<PredictionResult>(
-        "http://localhost:8000/predict",
+        "http://43.205.138.157:8000/predict",
         payload,
         {
           headers: {
