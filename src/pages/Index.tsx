@@ -65,13 +65,13 @@ const Index = () => {
             >
               Start Health Check
             </Button>
-            <Button
+            {/* <Button
               size="lg"
               variant="outline"
               className="h-14 px-8 text-lg font-semibold border-2"
             >
               Learn More
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>
